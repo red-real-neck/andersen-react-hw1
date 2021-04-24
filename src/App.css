@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.main_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.input {
+    margin-top: 25px;
+    width: 300px;
+    height: 25px;
+    align-self: center;
+    padding-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sort_wrapper {
+    display: flex;
+    align-content: center;
+    margin-top: 15px;
+    align-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="checkbox"] {
+    position: relative;
+    display: inline;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 40px;
+    height: 20px;
+    -webkit-appearance: none;
+    background: #c6c6c6;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+    transition: .5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input:checked[type="checkbox"] {
+    background: #03a9f4;
+}
+
+input[type="checkbox"]:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    background: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    transition: .5s;
+}
+
+input:checked[type="checkbox"]:before {
+    left: 20px
+}
+
+.sort_text {
+    padding-top: 5px;
+}
+
+.sign_up_btn {
+    position: absolute;
+    top: 25px;
+    right: 185px;
+    width: 100px;
+    height: 40px;
+    background: #C70101;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: lighter;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-bottom: 21px;
+    outline: none;
+}
+
+.sign_up_btn:active {
+    background: #700c0c;
 }
