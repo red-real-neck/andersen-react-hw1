@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/andersen-react-hw1/static/css/main.0e64c223.chunk.css",
+    "main.js": "/andersen-react-hw1/static/js/main.a0c8bac3.chunk.js",
+    "main.js.map": "/andersen-react-hw1/static/js/main.a0c8bac3.chunk.js.map",
+    "runtime-main.js": "/andersen-react-hw1/static/js/runtime-main.a57428af.js",
+    "runtime-main.js.map": "/andersen-react-hw1/static/js/runtime-main.a57428af.js.map",
+    "static/css/2.0cfad52a.chunk.css": "/andersen-react-hw1/static/css/2.0cfad52a.chunk.css",
+    "static/js/2.a1c61611.chunk.js": "/andersen-react-hw1/static/js/2.a1c61611.chunk.js",
+    "static/js/2.a1c61611.chunk.js.map": "/andersen-react-hw1/static/js/2.a1c61611.chunk.js.map",
+    "index.html": "/andersen-react-hw1/index.html",
+    "static/css/2.0cfad52a.chunk.css.map": "/andersen-react-hw1/static/css/2.0cfad52a.chunk.css.map",
+    "static/css/main.0e64c223.chunk.css.map": "/andersen-react-hw1/static/css/main.0e64c223.chunk.css.map",
+    "static/js/2.a1c61611.chunk.js.LICENSE.txt": "/andersen-react-hw1/static/js/2.a1c61611.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a57428af.js",
+    "static/css/2.0cfad52a.chunk.css",
+    "static/js/2.a1c61611.chunk.js",
+    "static/css/main.0e64c223.chunk.css",
+    "static/js/main.a0c8bac3.chunk.js"
+  ]
+}
